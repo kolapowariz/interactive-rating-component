@@ -1,0 +1,94 @@
+.star-rating{
+  width: 20rem;
+  height: 25rem;
+  margin: 5rem auto;
+  background: #212832;
+  border-radius: 10px;
+  padding: 10px;
+}
+.icon-container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #262d37;
+}
+.icon{
+  width: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;  
+}
+.header{
+  font-size: 1.5rem;
+  color:#dbe0e6;
+
+}
+.paragraph{
+  color:#7f8591;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #272e38;
+  color: #6c7280;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: #7c8999;
+  color: #ffffff;
+}
+
+.button.clicked{
+  background-color: #fc7613;
+}
+
+
+.submit{
+  background-color: #fc7613;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+  padding: 0.1rem;
+  border: none;
+  width: 18rem;
+  height: 3rem;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 40px;
+}
+
+.submit:hover {
+  background-color: #ffffff;
+  color: #fc7613;
+}
+
+.submit:active {
+  background-color: white;
+  color: rgb(255, 166, 0);
+} 
+
+@media screen and (min-width: 768px){
+  .star-rating{
+    width: 25rem;
+  }
+  .button-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap : 1rem;
+    margin: 0 auto;
+  }
+  
+}
